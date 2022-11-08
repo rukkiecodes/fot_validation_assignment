@@ -1,0 +1,105 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+}
+
+.clip {
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+          clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  background-color: #304FFE;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card {
+  width: 350px;
+  max-width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1em;
+}
+
+input {
+  width: 100%;
+  height: 3em;
+  border-width: 0;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  padding: 0 0 0 10px;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+input:focus {
+  outline-color: #304FFE;
+}
+
+button {
+  background: #304FFE;
+  width: 100%;
+  border: none;
+  height: 3em;
+  font-size: 1em;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 8px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+button:hover {
+  background-color: #1530ce;
+}
+
+.responseContainer {
+  width: 100%;
+}
+
+.error {
+  color: red;
+  text-align: left;
+}
+
+.response {
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */
